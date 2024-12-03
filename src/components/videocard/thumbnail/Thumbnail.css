@@ -1,0 +1,20 @@
+.video-thumbnail-container {
+    height: 204px !important;
+    width: 360px !important;
+    position: relative;
+    border-radius: 8px;
+}
+
+.durationContainer {
+    font-weight: bold;
+    font-size: 12px;
+    width: fit-content;
+    padding: 2px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 0; /* Align to the bottom */
+    right: 0; /* Align to the right */
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #fff; /* Make text visible on dark background */
+}
