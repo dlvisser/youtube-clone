@@ -1,0 +1,13 @@
+.video-description-container {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding-top: 8px;
+}
+
+.video-profile-image{
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50%;
+}
