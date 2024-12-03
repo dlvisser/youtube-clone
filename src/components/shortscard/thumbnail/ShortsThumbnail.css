@@ -1,0 +1,6 @@
+.thumbnailContainer {
+    height: 383px !important;
+    width: 216px !important;
+    position: relative;
+    border-radius: 8px;
+}
