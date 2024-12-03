@@ -1,0 +1,25 @@
+/* Ensure the app occupies the full viewport */
+html,
+body,
+#root,
+.yt-app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+a, p{
+  margin: 0;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  font-size: smaller;
+  font-weight: normal;
+}
