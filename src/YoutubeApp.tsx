@@ -13,10 +13,8 @@ export default function YoutubeApp() {
           <div className="content-container">
               <GenreList/>
               <VideoCardList/>
-              <h2>Shorts</h2>
               <ShortsCardList/>
               <VideoCardList/>
-              <h2>Shorts</h2>
               <ShortsCardList/>
           </div>
       </div>

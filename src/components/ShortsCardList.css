@@ -5,3 +5,10 @@
     gap: 1rem; /* Spacing between items */
     justify-content: center; /* Centers items horizontally */
 }
+
+.shorts-list-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
