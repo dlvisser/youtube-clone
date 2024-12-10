@@ -1,7 +1,7 @@
 import "./GenreList.css"
 
 export default function GenreList() {
-    const genres = ["All", "Games", "Music", "Videos", "Animals", "Technology", "Bakery", "Sports" ];
+    const genres = ["All", "Games", "Music", "Videos", "Animals", "Technology", "Bakery", "Sports", "News", "Apple", "Pop", "Cooking", "Burritos" ];
 
     return (
         <div className={"genre-list"}>
