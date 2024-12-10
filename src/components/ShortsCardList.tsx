@@ -16,9 +16,9 @@ export default function ShortsCardList() {
                 </svg>
                 <h2>Shorts</h2>
             </div>
-            <div className={"video-card-list"}>
-                {Array.from({length: 5}, (_, index) => (
-                    <ShortsCard color={colors[index]}/>
+            <div className={"shorts-card-list"}>
+                {Array.from({length: 10}, (_, index) => (
+                    <ShortsCard color={colors[index%5]}/>
                 ))}
             </div>
         </div>

@@ -6,8 +6,8 @@ export default function VideoCardList() {
 
     return (
         <div className={"video-card-list"}>
-            {Array.from({ length: 6 }, (_, index) => (
-                <VideoCard color={colors[index]} />
+            {Array.from({ length: 12 }, (_, index) => (
+                <VideoCard color={colors[index%6]} />
             ))}
         </div>
     );
