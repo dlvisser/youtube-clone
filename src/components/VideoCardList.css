@@ -3,5 +3,4 @@
     flex-direction: row;
     flex-wrap: wrap; /* Allows items to wrap to the next row */
     gap: 1rem; /* Spacing between items */
-    justify-content: center; /* Centers items horizontally */
 }
