@@ -1,0 +1,28 @@
+.drawer-container {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.drawer-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #3F3F3F;
+    margin: 0 8px 0 0;
+}
+
+.drawer-item {
+    display: flex;
+    flex-direction: row;
+    padding: 12px 16px;
+    width: 120px;
+    align-items: center;
+    gap: 1rem;
+}
+
+.copyright-section {
+    margin: 8px 0 0px 8px;
+    font-size: 0.8rem;
+    color: #5C5C5C;
+}

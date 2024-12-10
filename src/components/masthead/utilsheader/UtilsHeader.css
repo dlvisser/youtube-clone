@@ -5,3 +5,9 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.copy-code {
+    font-size: 8px;
+    margin: -16px 0 0 -12px;
+    color: #8b8b8b;
+}
