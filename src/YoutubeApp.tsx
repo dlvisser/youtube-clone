@@ -1,22 +1,14 @@
 import MastHead from "./components/masthead/MastHead";
 import "./YoutubeApp.css";
-import VideoCardList from "./components/VideoCardList.tsx";
-import ShortsCardList from "./components/ShortsCardList.tsx";
-import GenreList from "./components/GenreList.tsx";
 import Drawer from "./components/appdrawer/Drawer.tsx";
+import LandingPage from "./pages/LandingPage.tsx";
 
 export default function YoutubeApp() {
   return (
       <div className="yt-app">
           <MastHead/>
           <Drawer/>
-          <div className="content-container">
-              <GenreList/>
-              <VideoCardList/>
-              <ShortsCardList/>
-              <VideoCardList/>
-              <ShortsCardList/>
-          </div>
+          <LandingPage/>
       </div>
   );
 }
