@@ -1,14 +1,15 @@
 import MastHead from "./components/masthead/MastHead";
 import "./YoutubeApp.css";
-import Drawer from "./components/appdrawer/Drawer.tsx";
 import LandingPage from "./pages/LandingPage.tsx";
+import VideoPage from "./pages/VideoPage.tsx";
 
 export default function YoutubeApp() {
+    const debugMode = false;
+
   return (
       <div className="yt-app">
           <MastHead/>
-          <Drawer/>
-          <LandingPage/>
+          {debugMode ? <VideoPage/> : <LandingPage/>}
       </div>
   );
 }
