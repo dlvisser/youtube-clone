@@ -1,0 +1,31 @@
+/* Parent container */
+.progress-container {
+    position: relative; /* Positioning context for child elements */
+    height: 4px; /* Total height of the progress bar */
+    width: 100%; /* Full width of the container */
+    overflow: hidden; /* Ensure content stays within bounds */
+}
+
+/* Generic progress bar style */
+.progress-bar {
+    position: absolute; /* Stack bars on top of each other */
+    height: 100%; /* Fill the container height */
+}
+
+/* Total bar (visible background) */
+.total-bar {
+    width: 100%; /* Full width of the progress container */
+    background-color: #3B3637; /* Background for the entire progress area */
+}
+
+/* Buffer bar */
+.buffer-bar {
+    width: 60%; /* Buffered portion */
+    background-color: #9F9FA6; /* Semi-transparent buffer */
+}
+
+/* Watch progress bar */
+.watch-bar {
+    width: 50%; /* Watched portion */
+    background-color: #EA333E; /* Primary progress color */
+}
